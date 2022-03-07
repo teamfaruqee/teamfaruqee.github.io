@@ -20,7 +20,7 @@ $(document).ready(function() {
   $(".js--scroll-to-feature").click(function(event) {
     event.preventDefault();
     $("html,body").animate(
-      { scrollTop: $(".js--section-features").offset().top - 50 },
+      { scrollTop: $(".js--section-message").offset().top - 50 },
       1000
     );
   });
