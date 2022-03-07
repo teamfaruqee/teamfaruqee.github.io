@@ -239,6 +239,10 @@
   .video-wrapper iframe {
     top: 15%;
   }
+  .box img {
+    width: 50%;
+    height: auto;
+  }
 }
 
 /* Small phones from 0 to 480 px */
