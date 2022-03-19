@@ -203,6 +203,28 @@ $(document).ready(function() {
     }
   });
 
+  // close the mobile menu while click out side
+  $('html').click(function (event) {
+    var clickover = $(event.target); 
+    //console.trace('inside html : '+clickover);
+    var nav = $(".js--main-nav");
+    var icon = $(".js--nav-icon i");
+    var rootNav = $("nav");
+   
+    var _opened = icon.hasClass("ion-android-close");
+    if (_opened === true && !clickover.hasClass("ion-android-close")) {
+      icon.addClass("ion-android-menu");
+      icon.removeClass("ion-android-close");
+      nav.slideToggle(200);
+      //alert('close nav'); 
+      if (!rootNav.hasClass("sticky")) {
+        rootNav.css("background-color", "transparent");
+        rootNav.css("-webkit-box-shadow", "");
+        rootNav.css("box-shadow", "");
+        icon.css("color", "#fff");
+      }  }
+  });
+
   /* Maps */
 
   var map = new GMaps({
