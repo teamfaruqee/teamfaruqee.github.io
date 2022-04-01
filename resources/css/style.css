@@ -20,7 +20,7 @@ html,
 body {
   background-color: #fff;
   color: #050505;
-  font-family: "Lato", "Arial", sans-serif;
+  font-family: Shonar_bangla, SolaimanLipi, Arial, Vrinda, Helvetica, sans-serif !important
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
