@@ -206,11 +206,16 @@ $(document).ready(function() {
   // close the mobile menu while click out side
   $('html').click(function (event) {
     var clickover = $(event.target); 
+   // console.dir(clickover);
+    if(clickover.hasClass("ion-android-close") || clickover.hasClass("row") ||  clickover.hasClass(""))
+    {
+      return;
+    }
     //console.trace('inside html : '+clickover);
     var nav = $(".js--main-nav");
     var icon = $(".js--nav-icon i");
     var rootNav = $("nav");
-   
+    
     var _opened = icon.hasClass("ion-android-close");
     if (_opened === true && !clickover.hasClass("ion-android-close")) {
       icon.addClass("ion-android-menu");
@@ -224,6 +229,8 @@ $(document).ready(function() {
         icon.css("color", "#fff");
       }  }
   });
+
+
 
   /* Maps */
 
