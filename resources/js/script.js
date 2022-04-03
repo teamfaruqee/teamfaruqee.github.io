@@ -206,8 +206,8 @@ $(document).ready(function() {
   // close the mobile menu while click out side
   $('html').click(function (event) {
     var clickover = $(event.target); 
-   // console.dir(clickover);
-    if(clickover.hasClass("ion-android-close") || clickover.hasClass("row") ||  clickover.hasClass(""))
+    //console.dir(clickover);
+    if(clickover.hasClass("ion-android-close") || clickover.hasClass("row") ||  clickover[0].id=="lang")
     {
       return;
     }
