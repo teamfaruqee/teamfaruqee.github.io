@@ -20,7 +20,7 @@ i18next
               button_2: "Show me more"
             },
             sectionFeature: {
-              feature_h2_1:'He who works with his hand is a surgeon, he who works with his mind is a physician and he who works with his hands and mind is a anaesthesian.',
+              feature_h2_1:'He who works with his hand is a surgeon, he who works with his mind is a physician and he who works with his hands and mind is an anaesthetist.',
                // 'Children must be taught how to think, not what to think<cite> &mdash; <a href="https://en.wikipedia.org/wiki/Margaret_Mead"                target="_blank">Margaret Mead</a></cite>',
               feature_p_1:
                 "Hello, we beleive in quality treatment for our patient to develop his/her recovery process. We know you're always thoughtful about your patient's proper treatment. So let us take care of that, we're really good at it, we promise!",
