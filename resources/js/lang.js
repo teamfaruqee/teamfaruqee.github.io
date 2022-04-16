@@ -19,6 +19,22 @@ i18next
               button_1: "Patients' opinion",
               button_2: "Show me more"
             },
+            sectionChamber: {
+              chamber_h2_1: 'Doctor\'s Chamber',
+              chamber_h3_1:'Dr. Sajedur Reja Faruqee (Associate Professor)',
+              chamber_h3_2:'Dr. Sajedur Reja Faruqee (Associate Professor)',
+              chamber_h3_3:'Dr. Hasan Nazir Uddin Sumon (Consultant)',
+              chamber_span1_1:'Al Manar Hospital Ltd. Beside Mohammadpur new thana, Sat masjid road, Roam no: 207',
+              chamber_span1_2:'Visiting hour: Saturday from 6 PM to 8 PM & Thursday from 4 PM to 9 PM',
+              chamber_span1_3:'For serial: 01550020885',
+              chamber_span2_1:'Green Life Hospital Ltd. 32, Bir uttam K.M. Shafiullah Sarak,(Green Road), Dhaka, Roam no: 431',
+              chamber_span2_2:'Visiting hour: Saturday, Tuesday from 4 PM to 6 PM',
+              chamber_span2_3:'For serial: 01715761102, 9612345-54',
+              chamber_span3_1:'Al Manar Hospital Ltd. Plot-Umo(ঙ), Block-Rossoi(ই),Satmosjid Road Mohammadpur, Dhaka-1207',
+              chamber_span3_2:'Visiting hour: Sunday, Monday, Wednesday, 10 AM to 1 PM',
+              chamber_span3_3:'For serial: 01716042951'
+            },
+            
             sectionFeature: {
               feature_h2_1:'He who works with his hand is a surgeon, he who works with his mind is a physician and he who works with his hands and mind is an anaesthetist.',
                // 'Children must be taught how to think, not what to think<cite> &mdash; <a href="https://en.wikipedia.org/wiki/Margaret_Mead"                target="_blank">Margaret Mead</a></cite>',
@@ -112,7 +128,7 @@ i18next
               footer_a_1: "About Us",
               footer_a_2: "Contact Us",
               footer_a_3: "Notice Board",
-              footer_a_4: "Doctor's Panel",
+              footer_a_4: "Doctor's Chamber",
               footer_p_1:
                 "Copyright &copy; 2022 by TPRS. All rights reserved. Courtesy- Jonas Schedmann."
             },
@@ -127,6 +143,7 @@ i18next
             },
             menu: {
               feature: "Our Feature",
+              chamber: "Doctor's Chamber",
               gallery: "Gallery",
               location: "Our location",
               admission: "Admission Information",
@@ -143,6 +160,21 @@ i18next
               school_name: "ট্রমা, প্লাস্টিক এবং রিকন্সট্রাকটিভ সার্জারী",
               button_1: "রোগীর মতামত",
               button_2: "বিস্তারিত দেখুন"
+            },
+            sectionChamber: {
+              chamber_h2_1: 'ডক্টর\'স চেম্বার',
+              chamber_h3_1:'ডাঃ সাজেদুর রেজা ফারুকী (সহযোগী অধ্যাপক)',
+              chamber_h3_2:'ডাঃ সাজেদুর রেজা ফারুকী (সহযোগী অধ্যাপক)',
+              chamber_h3_3:'ডাঃ হাসান নাজির উদ্দিন সুমন (কনসালটেন্ট)',
+              chamber_span1_1:'আল মানার হাসপাতাল লিঃ, সাতমসজিদ রোড, মোহাম্মদপুর নতুন থানার পাশে, রুম নং- ২০৭',
+              chamber_span1_2:'সাক্ষাতের সময়ঃ প্রতি শনিবার সন্ধ্যা ৬টা থেকে রাত ৮টা এবং বৃহস্পতিবার বিকেল ৪টা থেকে রাত ৯টা',
+              chamber_span1_3:'সিরিয়ালের জন্যঃ ০১৫৫০০২০৮৮৫',
+              chamber_span2_1:'গ্রীন লাইফ হাসপাতাল লি. ৩২, বীর উত্তম কে.এম. শফিউল্লাহ সড়ক, (গ্রিন রোড), ঢাকা, রোম নং: ৪৩১',
+              chamber_span2_2:'সাক্ষাতের সময়ঃ প্রতি শনিবার, মঙ্গলবার বিকেল ৪টা থেকে সন্ধ্যা ৬টা পর্যন্ত  ',
+              chamber_span2_3:'সিরিয়ালের জন্যঃ ০১৭১৫৭৬১১০২, ৯৬১২৩৪৫-৫৪',
+              chamber_span3_1:'আল মানার হাসপাতাল লিমিটেড প্লট-ঙ, ব্লক-ই, সাতমসজিদ রোড মোহাম্মদপুর, ঢাকা-১২০৭',
+              chamber_span3_2:'সাক্ষাতের সময়ঃ প্রতি রবিবার, সোমবার, বুধবার, সকাল ১০টা থেকে দুপুর ১টা',
+              chamber_span3_3:'সিরিয়ালের জন্যঃ ০১৭১৬০৪২৯৫১'
             },
             sectionFeature: {
               feature_h2_1:'যিনি হস্তদ্বয় ব্যবহার করে সেবা দেন তিনি সার্জন, যিনি মনস্তাত্বিক সেবা দেন তিনি ফিজিশিয়ান আর যিনি  মনস্তাত্বিক ও  হস্তদ্বয়  ব্যবহার করে  সেবা দেন তিনি এনেসথেটিস্ট',
@@ -240,7 +272,7 @@ i18next
               footer_a_1: "আমাদের সম্পর্কে",
               footer_a_2: "যোগাযোগ করুন",
               footer_a_3: "নোটিশ বোর্ড",
-              footer_a_4: "চিকিৎসক প্যানেল",
+              footer_a_4: "ডক্টর\'স চেম্বার",
               footer_p_1:
                 "কপিরাইট &copy; ২০২২ , টি.পি.আর.এস  কর্তৃক  সর্বসত্ব  সংরক্ষিত । সৌজন্যে - জোনাস শিডম্যান ।"
             },
@@ -255,6 +287,7 @@ i18next
             },
             menu: {
               feature: "আমাদের বৈশিষ্ট্য",
+              chamber: "ডক্টর\'স চেম্বার",
               gallery: "ছবি ঘর",
               location: "আমাদের ঠিকানা",
               admission: "ভর্তি তথ্য",
@@ -282,6 +315,9 @@ function updateContent() {
   /* ----  Menu Top ----*/
   document.getElementById("featureMenuItem").innerHTML = i18next.t(
     "common:menu.feature"
+  );
+  document.getElementById("chamberMenuItem").innerHTML = i18next.t(
+    "common:menu.chamber"
   );
   document.getElementById("galleryMenuItem").innerHTML = i18next.t(
     "common:menu.gallery"
@@ -311,6 +347,48 @@ function updateContent() {
     "special:header.button_2"
   );
 
+   /* ----  section-chamber ----*/
+   
+   document.getElementById("chamber_h2_1").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_h2_1"
+  );
+   document.getElementById("chamber_h3_1").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_h3_1"
+  );
+  document.getElementById("chamber_h3_2").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_h3_2"
+  );
+  document.getElementById("chamber_h3_3").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_h3_3"
+  );
+  document.getElementById("chamber_span1_1").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span1_1"
+  );
+  document.getElementById("chamber_span1_2").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span1_2"
+  );
+  document.getElementById("chamber_span1_3").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span1_3"
+  );
+  document.getElementById("chamber_span2_1").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span2_1"
+  );
+  document.getElementById("chamber_span2_2").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span2_2"
+  );
+  document.getElementById("chamber_span2_3").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span2_3"
+  );
+  document.getElementById("chamber_span3_1").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span3_1"
+  );
+  document.getElementById("chamber_span3_2").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span3_2"
+  );
+  document.getElementById("chamber_span3_3").innerHTML = i18next.t(
+    "special:sectionChamber.chamber_span3_3"
+  );
+  
   /* ----  section-feature ----*/
 
   document.getElementById("feature_h2_1").innerHTML = i18next.t(
@@ -548,7 +626,15 @@ function updateContent() {
 }
 
 function changeLng(lng) {
+  /*
+  if(lng ==='en'){
+    document.body.style.fontFamily=' Arial,  Helvetica, sans-serif !important;';
+  } else {
+    document.body.style.fontFamily='Shonar_bangla, SolaimanLipi, Arial, Vrinda, Helvetica, sans-serif !important;';
+  }*/
   i18next.changeLanguage(lng);
+  
+  //console.log('lang-'+lng);
 }
 
 i18next.on("languageChanged", () => {
