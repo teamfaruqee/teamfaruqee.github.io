@@ -1103,3 +1103,19 @@ input[type="date"] {
   background-color: #ddf;
   color: #000;
 }
+
+
+/**************** Chamber **********************/
+
+.chamber-feature{
+  margin-bottom: 5px;
+}
+
+.section-chamber .absolute-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  position: relative;
+  top: 220px;
+  left: 220px;
+}
