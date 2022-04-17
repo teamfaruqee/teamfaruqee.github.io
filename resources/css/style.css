@@ -1119,3 +1119,7 @@ input[type="date"] {
   top: 220px;
   left: 220px;
 }
+
+.section-chamber .relative-img {
+  border-radius: 5px;
+}
