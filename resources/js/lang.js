@@ -92,28 +92,7 @@ i18next
                 "Lorem ipsum dolor imit Lorem ipsum dolor imit Lorem ipsum dolor imit Lorem ipsum dolor imit Lorem ipsum dolor imit Lorem ipsum dolor imit Lorem ipsum dolor imit Lorem ipsum dolor",
               testimonial_span_3: "Subal Das"
             },
-            plan: {
-              plan_h2_1: "Admission information",
-
-              plan1_h3_1: "Play",
-              plan1_p_1: "Admission fees : &#2547; 12000/- BDT",
-              plan1_p_2: "Monthly fees : &#2547; 800/- BDT",
-              plan1_span_1: "Books, diary , exercise book, Id card included",
-              plan1_a_1: "Contact now",
-
-              plan2_h3_1: "Nursery",
-              plan2_p_1: "Admission fees : &#2547; 12000/- BDT",
-              plan2_p_2: "Monthly fees : &#2547; 800/- BDT",
-              plan2_span_1: "Books, diary , exercise book, Id card included",
-              plan2_a_1: "Contact now",
-
-              plan3_h3_1: "Singing / Dancing / Drawing",
-              plan3_p_1: "Admission fees : &#2547; 1200/- BDT",
-              plan3_p_2: "Monthly fees : &#2547; 300/- BDT",
-              plan3_span_1:
-                "Drawing board, cartidge paper, pencil, anklet should be brought by student ",
-              plan3_a_1: "Contact now"
-            },
+           
             form: {
               form_h2_1: "We're happy to hear from you",
               form_name: "Name",
@@ -142,10 +121,10 @@ i18next
               save_plural: "save {{count}} changes"
             },
             menu: {
-              feature: "Our Feature",
-              chamber: "Doctor's Chamber",
+              feature: "Feature",
+              chamber: "Chamber",
               gallery: "Gallery",
-              location: "Our location",
+              location: "Location",
               admission: "Admission Information",
               phoneNumber:"01618-004218"
             }
@@ -234,30 +213,7 @@ i18next
                 "যে-বই জুড়ে সূর্য ওঠে পাতায় পাতায় গোলাপ ফোটে সে-বই তুমি পড়বে। যে-বই জ্বালে ভিন্ন  আলো তোমায় শেখায় বাসতে ভালো সে-বই তুমি পড়বে। যে-বই তোমায় দেখায় ভয় সেগুলো কোন বই-ই নয় সে-বই তুমি পড়বে না। যে-বই তোমায় অন্ধ করে যে-বই তোমায় বন্দী করে সে-বই তুমি ছুঁবেই না। - 'হুমায়ুন আজাদ'",
               testimonial_span_3: "সুবল দাশ"
             },
-            plan: {
-              plan_h2_1: "ভর্তি সংক্রান্ত তথ্য",
-
-              plan1_h3_1: "প্লে / শিশু",
-              plan1_p_1: "ভর্তি ফি :  &#2547; ১২০০০/- ",
-              plan1_p_2: "মাসিক ফি :  &#2547; ৮০০/- ",
-              plan1_span_1:
-                "বই, ডায়েরি, অনুশীলন খাতা , আইডি কার্ড অন্তর্ভুক্ত",
-              plan1_a_1: "এখনই যোগাযোগ করুন",
-
-              plan2_h3_1: "নার্সারী",
-              plan2_p_1: "ভর্তি ফি :  &#2547; ১২০০০/- ",
-              plan2_p_2: "মাসিক ফি :  &#2547; ৮০০/- ",
-              plan2_span_1:
-                "বই, ডায়েরি, অনুশীলন খাতা , আইডি কার্ড অন্তর্ভুক্ত",
-              plan2_a_1: "এখনই যোগাযোগ করুন",
-
-              plan3_h3_1: "গান / নাচ / ছবি আঁকা",
-              plan3_p_1: "ভর্তি ফি :  &#2547; ১২০০/-",
-              plan3_p_2: "মাসিক ফি :  &#2547; ৩০০/- ",
-              plan3_span_1:
-                "অঙ্কন বোর্ড, কার্তুজ পেপার, পেন্সিল,  ঘুঙ্গুর শিক্ষার্থী নিয়ে আসবে ",
-              plan3_a_1: "এখনই যোগাযোগ করুন"
-            },
+            
             form: {
               form_h2_1: "আপনাদের মতামত ও পরামর্শ",
               form_name: "নাম",
