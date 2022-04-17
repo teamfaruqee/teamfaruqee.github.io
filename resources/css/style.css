@@ -1108,7 +1108,8 @@ input[type="date"] {
 /**************** Chamber **********************/
 
 .chamber-feature{
-  margin-bottom: 5px;
+  font-size: 80%;
+  margin-bottom: 10px;
 }
 
 .section-chamber .absolute-img {
