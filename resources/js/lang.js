@@ -21,9 +21,9 @@ i18next
             },
             sectionChamber: {
               chamber_h2_1: 'Doctor\'s Chamber',
-              chamber_h3_1:'Dr. Sajedur Reja Faruqee (Associate Professor)',
-              chamber_h3_2:'Dr. Sajedur Reja Faruqee (Associate Professor)',
-              chamber_h3_3:'Dr. Hasan Nazir Uddin Sumon (Consultant)',
+              chamber_h3_1:'Dr. Sajedur Reja Faruquee (Associate Professor)',
+              chamber_h3_2:'Dr. Sajedur Reja Faruquee (Associate Professor)',
+              chamber_h3_3:'Dr. Hasan Nazir Uddin Sumon (Assistant Professor, Enam Medical College)',
               chamber_span1_1:'Al Manar Hospital Ltd. Beside Mohammadpur new thana, Sat masjid road, Roam no: 207',
               chamber_span1_2:'Visiting hour: Saturday from 6 PM to 8 PM & Thursday from 4 PM to 9 PM',
               chamber_span1_3:'For serial: 01550020885',
@@ -31,7 +31,7 @@ i18next
               chamber_span2_2:'Visiting hour: Saturday, Tuesday from 4 PM to 6 PM',
               chamber_span2_3:'For serial: 01715761102, 9612345-54',
               chamber_span3_1:'Al Manar Hospital Ltd. Plot-Umo(ঙ), Block-Rossoi(ই),Satmosjid Road Mohammadpur, Dhaka-1207',
-              chamber_span3_2:'Visiting hour: Sunday, Monday, Wednesday, 10 AM to 1 PM',
+              chamber_span3_2:'Visiting hour: Sunday, Monday, Wednesday, 2:30 PM to 5 PM',
               chamber_span3_3:'For serial: 01716042951'
             },
             
@@ -57,7 +57,7 @@ i18next
             },
             message: {
               message_h2_1: "Our Team",
-              message_figcaption_1: "<b>Dr. Sajedur Reja Faruqee</b> <p>Associate Professor, Hand and Microsurgery</p><p>Chief Consultant, Trauma, Plastic & Reconstructive Surgery Unit (Team Lead)</p>",
+              message_figcaption_1: "<b>Dr. Sajedur Reja Faruquee</b> <p>Associate Professor, Hand and Microsurgery</p><p>Chief Consultant, Trauma, Plastic & Reconstructive Surgery Unit (Team Lead)</p>",
               message_figcaption_2: "<b>Dr. Md. Alauddin</b> <p>Associate Professor (Retd.)</p>             <p>Consultant, Trauma, Plastic & Reconstructive Surgery Unit</p>",
               message_figcaption_3: "<b>Dr. Mostafa Kamrul Islam</b><p></p><p>Consultant, Anesthestist, Trauma, Plastic & Reconstructive Surgery Unit</p>",
               message_figcaption_4: "<b>Dr. Swadesh Ranjan Sarker, MBBS, MS</b><p>Assistant Professor, Vascular Surgery</p><p>Consultant, Trauma, Plastic & Reconstructive Surgery Unit</p>",
@@ -144,7 +144,7 @@ i18next
               chamber_h2_1: 'ডক্টর\'স চেম্বার',
               chamber_h3_1:'ডাঃ সাজেদুর রেজা ফারুকী (সহযোগী অধ্যাপক)',
               chamber_h3_2:'ডাঃ সাজেদুর রেজা ফারুকী (সহযোগী অধ্যাপক)',
-              chamber_h3_3:'ডাঃ হাসান নাজির উদ্দিন সুমন (কনসালটেন্ট)',
+              chamber_h3_3:'ডাঃ হাসান নাজির উদ্দিন সুমন (সহকারী অধ্যাপক) এনাম মেডিকেল কলেজ',
               chamber_span1_1:'আল মানার হাসপাতাল লিঃ, সাতমসজিদ রোড, মোহাম্মদপুর নতুন থানার পাশে, রুম নং- ২০৭',
               chamber_span1_2:'সাক্ষাতের সময়ঃ প্রতি শনিবার সন্ধ্যা ৬টা থেকে রাত ৮টা এবং বৃহস্পতিবার বিকেল ৪টা থেকে রাত ৯টা',
               chamber_span1_3:'সিরিয়ালের জন্যঃ ০১৫৫০০২০৮৮৫',
@@ -152,12 +152,12 @@ i18next
               chamber_span2_2:'সাক্ষাতের সময়ঃ প্রতি শনিবার, মঙ্গলবার বিকেল ৪টা থেকে সন্ধ্যা ৬টা পর্যন্ত  ',
               chamber_span2_3:'সিরিয়ালের জন্যঃ ০১৭১৫৭৬১১০২, ৯৬১২৩৪৫-৫৪',
               chamber_span3_1:'আল মানার হাসপাতাল লিমিটেড প্লট-ঙ, ব্লক-ই, সাতমসজিদ রোড মোহাম্মদপুর, ঢাকা-১২০৭',
-              chamber_span3_2:'সাক্ষাতের সময়ঃ প্রতি রবিবার, সোমবার, বুধবার, সকাল ১০টা থেকে দুপুর ১টা',
+              chamber_span3_2:'সাক্ষাতের সময়ঃ প্রতি রবিবার, সোমবার, বুধবার, বিকাল ২:৩০ টা থেকে  ৫ টা',
               chamber_span3_3:'সিরিয়ালের জন্যঃ ০১৭১৬০৪২৯৫১'
             },
             sectionFeature: {
               feature_h2_1:'যিনি হস্তদ্বয় ব্যবহার করে সেবা দেন তিনি সার্জন, যিনি মনস্তাত্বিক সেবা দেন তিনি ফিজিশিয়ান আর যিনি  মনস্তাত্বিক ও  হস্তদ্বয়  ব্যবহার করে  সেবা দেন তিনি এনেসথেটিস্ট',
-               // 'বাচ্চাদের অবশ্যই কীভাবে ভাবতে হবে তা শেখানো উচিত, কী ভাবতে হবে তা নয়<cite> &mdash; <a          href="https://en.wikipedia.org/wiki/Margaret_Mead" target="_blank"> মার্গারেট মিড </a></cite>',
+               
               feature_p_1:
                 "আমরা আমাদের রোগীর আরোগ্য লাভের জন্য মানসম্পন্ন সু-চিকিৎসায় বিশ্বাস করি। আমরা জানি আপনি সবসময় আপনার রোগীর সঠিক চিকিৎসার বিষয়ে চিন্তিত। আমরা এতদ বিষয়ে প্রতিশ্রুতিবদ্ধ ।",
               feature_h3_1: "সংক্রমণ বিরোধী এবং জীবাণুমুক্ত  আধুনিক অপারেশন ব্যবস্থা",
@@ -182,7 +182,7 @@ i18next
               message_figcaption_2: "<b>ডাঃ মোঃ আলাউদ্দিন</b> <p>অ্যাসোসিয়েট প্রফেসর (অব.)</p> <p>কনসালটেন্ট, ট্রমা, প্লাস্টিক অ্যান্ড রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
               message_figcaption_3: "<b>ডাঃ মোস্তফা কামরুল ইসলাম</b><p></p><p>কনসালটেন্ট, অ্যানেস্থেস্টিস্ট, ট্রমা, প্লাস্টিক অ্যান্ড রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
               message_figcaption_4: "<b>ডাঃ স্বদেশ রঞ্জন সরকার, এমবিবিএস, এমএস</b><p>সহকারী অধ্যাপক, ভাস্কুলার সার্জারি</p><p>কনসালট্যান্ট, ট্রমা, প্লাস্টিক অ্যান্ড রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
-              message_figcaption_5: "<b>ডাঃ হাসান নাজির উদ্দিন সুমন, এমবিবিএস, এফসিপিএস</b><p></p><p>কনসালটেন্ট, ট্রমা, প্লাস্টিক অ্যান্ড রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
+              message_figcaption_5: "<b>ডাঃ হাসান নাজির উদ্দিন সুমন, এমবিবিএস, এফসিপিএস</b><p></p><p>সহকারী অধ্যাপক, ট্রমা, প্লাস্টিক অ্যান্ড রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
               message_figcaption_6: "<b>ডাঃ মোঃ বাহা উদ্দিন, এমবিবিএস, এমপিএইচ</b><p></p><p>সহকারী রেজিস্ট্রার, ট্রমা, প্লাস্টিক ও রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
               message_figcaption_7: "<b>ডাঃ আসিফ উল হক, এমবিবিএস</b><p></p><p>মেডিকেল অফিসার, ট্রমা, প্লাস্টিক অ্যান্ড রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
               message_figcaption_8: "<b>ডাঃ সাকেরা হোসেন, এমবিবিএস</b><p></p><p>মেডিকেল অফিসার, ট্রমা, প্লাস্টিক অ্যান্ড রিকনস্ট্রাকটিভ সার্জারি ইউনিট</p>",
@@ -407,9 +407,9 @@ function updateContent() {
   document.getElementById("message_figcaption_6").innerHTML = i18next.t(
     "special:message.message_figcaption_6"
   );
-  document.getElementById("message_figcaption_7").innerHTML = i18next.t(
+ /* document.getElementById("message_figcaption_7").innerHTML = i18next.t(
     "special:message.message_figcaption_7"
-  );
+  );*/
   
   document.getElementById("message_figcaption_8").innerHTML = i18next.t(
     "special:message.message_figcaption_8"
