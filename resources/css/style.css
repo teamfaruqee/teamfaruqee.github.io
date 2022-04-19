@@ -1113,9 +1113,9 @@ input[type="date"] {
 }
 
 .chamber-feature div {
-  display: inline-block;
+  /*display: inline-block;*/
   float: left;
-  height: 30px;
+  height: 50px;
   width: 30px;
   text-align: center;
   padding: 5px;

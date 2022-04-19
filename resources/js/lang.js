@@ -23,7 +23,7 @@ i18next
               chamber_h2_1: 'Doctor\'s Chamber',
               chamber_h3_1:'Dr. Sajedur Reja Faruquee (Associate Professor)',
               chamber_h3_2:'Dr. Sajedur Reja Faruquee (Associate Professor)',
-              chamber_h3_3:'Dr. Hasan Nazir Uddin Sumon (Assistant Professor, Enam Medical College)',
+              chamber_h3_3:'Dr. Hasan Nazir Uddin Sumon (Assistant Professor) <br> Enam Medical College',
               chamber_span1_1:'Al Manar Hospital Ltd. Beside Mohammadpur new thana, Sat masjid road, Roam no: 207',
               chamber_span1_2:'Visiting hour: Saturday from 6 PM to 8 PM & Thursday from 4 PM to 9 PM',
               chamber_span1_3:'For serial: 01550020885',
@@ -37,7 +37,6 @@ i18next
             
             sectionFeature: {
               feature_h2_1:'He who works with his hand is a surgeon, he who works with his mind is a physician and he who works with his hands and mind is an anaesthetist.',
-               // 'Children must be taught how to think, not what to think<cite> &mdash; <a href="https://en.wikipedia.org/wiki/Margaret_Mead"                target="_blank">Margaret Mead</a></cite>',
               feature_p_1:
                 "Hello, we beleive in quality treatment for our patient to develop his/her recovery process. We know you're always thoughtful about your patient's proper treatment. So let us take care of that, we're really good at it, we promise!",
               feature_h3_1: "Anti-infective and sterile modern operating system",
@@ -61,7 +60,7 @@ i18next
               message_figcaption_2: "<b>Dr. Md. Alauddin</b> <p>Associate Professor (Retd.)</p>             <p>Consultant, Trauma, Plastic & Reconstructive Surgery Unit</p>",
               message_figcaption_3: "<b>Dr. Mostafa Kamrul Islam</b><p></p><p>Consultant, Anesthestist, Trauma, Plastic & Reconstructive Surgery Unit</p>",
               message_figcaption_4: "<b>Dr. Swadesh Ranjan Sarker, MBBS, MS</b><p>Assistant Professor, Vascular Surgery</p><p>Consultant, Trauma, Plastic & Reconstructive Surgery Unit</p>",
-              message_figcaption_5: "<b>Dr. Hasan Nazir Uddin Sumon, MBBS, FCPS</b><p></p><p>Consultant, Trauma, Plastic & Reconstructive Surgery Unit</p>",
+              message_figcaption_5: "<b>Dr. Hasan Nazir Uddin Sumon, MBBS, FCPS</b><p></p><p>Assistant Professor, Trauma, Plastic & Reconstructive Surgery Unit</p>",
               message_figcaption_6: "<b>Dr. Md. Baha Uddin, MBBS, MPH</b><p></p><p>Assistant Registrar, Trauma, Plastic & Reconstructive Surgery Unit</p>",
               message_figcaption_7: "<b>Dr. Asif Ul Haque, MBBS</b><p></p><p>Medical Officer, Trauma, Plastic & Reconstructive Surgery Unit</p>",
               message_figcaption_8: "<b>Dr. Sakera Hossain, MBBS</b><p></p><p>Medical Officer, Trauma, Plastic & Reconstructive Surgery Unit</p>",
