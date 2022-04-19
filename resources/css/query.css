@@ -91,6 +91,7 @@
 
 /* small phones to small tablets from 601 to 767 px*/
 @media only screen and (max-width: 767px) {
+ 
   .item {
     flex-basis: 32%;
   }
@@ -256,6 +257,10 @@
     top: -87px;
     left: 56%;
   }
+
+  .chamber-feature div {
+    height: 20px;
+  }
   
 }
 
@@ -307,7 +312,19 @@
     top: -20px;
     left: 56%;
   }
+
+  .chamber-feature div {
+    height: 26px;
+  }
   
 }
+
+@media only screen and (max-width: 280px) {
+  .chamber-feature div {
+    height: 38px;
+  }
+}
+
+
 
 
