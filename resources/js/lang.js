@@ -150,7 +150,7 @@ i18next
               chamber_span2_1:'গ্রীন লাইফ হাসপাতাল লি. ৩২, বীর উত্তম কে.এম. শফিউল্লাহ সড়ক, (গ্রিন রোড), ঢাকা, রুম নং- ৪৩১',
               chamber_span2_2:'সাক্ষাতের সময়ঃ প্রতি শনিবার, মঙ্গলবার বিকেল ৪টা থেকে সন্ধ্যা ৬টা পর্যন্ত  ',
               chamber_span2_3:'সিরিয়ালের জন্যঃ ০১৭১৫৭৬১১০২, ৯৬১২৩৪৫-৫৪',
-              chamber_span3_1:'আল মানার হাসপাতাল লিমিটেড প্লট-ঙ, ব্লক-ই, সাতমসজিদ রোড মোহাম্মদপুর, ঢাকা-১২০৭',
+              chamber_span3_1:'আল মানার হাসপাতাল লিমিটেড, প্লট-ঙ, ব্লক-ই, সাতমসজিদ রোড মোহাম্মদপুর, ঢাকা-১২০৭',
               chamber_span3_2:'সাক্ষাতের সময়ঃ প্রতি রবিবার, সোমবার, বুধবার, বিকাল ২:৩০ টা থেকে  ৫ টা',
               chamber_span3_3:'সিরিয়ালের জন্যঃ ০১৭১৬০৪২৯৫১'
             },
@@ -222,6 +222,7 @@ i18next
               form_news: "নিউজলেটার?",
               form_span_1: " হ্যাঁ ",
               btnSubmit: "প্রেরন করুন!"
+
             },
             footer: {
               footer_a_1: "আমাদের সম্পর্কে",
@@ -521,6 +522,8 @@ function updateContent() {
 
   /* ----  Form ----- */
 
+  
+
   document.getElementById("form_h2_1").innerHTML = i18next.t(
     "special:form.form_h2_1"
   );
@@ -581,17 +584,32 @@ function updateContent() {
 }
 
 function changeLng(lng) {
-  /*
-  if(lng ==='en'){
-    document.body.style.fontFamily=' Arial,  Helvetica, sans-serif !important;';
-  } else {
-    document.body.style.fontFamily='Shonar_bangla, SolaimanLipi, Arial, Vrinda, Helvetica, sans-serif !important;';
-  }*/
+ 
   i18next.changeLanguage(lng);
-  
-  //console.log('lang-'+lng);
+ 
 }
 
-i18next.on("languageChanged", () => {
+i18next.on("languageChanged", (lng) => {
+  //console.log('lang-'+lng);
+  var select = document.getElementById("find-us");
+  select.innerHTML = "";
+  var optionText = [];
+   
+  if(lng ==='en'){
+    //document.body.style.fontFamily=' Arial,  Helvetica, sans-serif !important;';
+    optionText = ["","Friends", "Web", "Advertisement", "Other"];
+  } else {
+    //document.body.style.fontFamily='Shonar_bangla, SolaimanLipi, Arial, Vrinda, Helvetica, sans-serif !important;';
+    optionText = ["","বন্ধু-বান্ধব", "ওয়েব সাইট", "ফেসবুক", "অন্যান্য"];
+  }
+ 
+  for (var i = 0; i < optionText.length; i++) {
+    var opt = optionText[i];
+    var el = document.createElement("option");
+    el.textContent = opt;
+    el.value = opt;
+    select.appendChild(el);
+}
+ 
   updateContent();
 });
