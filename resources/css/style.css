@@ -1112,6 +1112,22 @@ input[type="date"] {
   margin-bottom: 10px;
 }
 
+.chamber-feature div {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  padding-left: 0px;
+  font-size: 120%;
+  
+}
+
+.chamber-feature p {
+  font-size: 100%;
+}
+
 .section-chamber .absolute-img {
   width: 100px;
   height: 100px;
@@ -1123,4 +1139,8 @@ input[type="date"] {
 
 .section-chamber .relative-img {
   border-radius: 5px;
+}
+
+.section-chamber div h3{
+  text-align: center;
 }
