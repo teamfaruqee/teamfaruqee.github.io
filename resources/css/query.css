@@ -47,6 +47,13 @@
     margin-left: 10px;
   }
 
+  .main-nav li a:link,
+  .main-nav li a:visited {
+   
+    font-size: 74%;
+    
+  }
+
   .long-copy {
     width: 80%;
     margin-left: 10%;
