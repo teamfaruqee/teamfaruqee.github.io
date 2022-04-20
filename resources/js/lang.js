@@ -23,7 +23,7 @@ i18next
               chamber_h2_1: 'Doctor\'s Chamber',
               chamber_h3_1:'Dr. Sajedur Reja Faruquee (Associate Professor)',
               chamber_h3_2:'Dr. Sajedur Reja Faruquee (Associate Professor)',
-              chamber_h3_3:'Dr. Hasan Nazir Uddin Sumon (Assistant Professor) <br> Enam Medical College',
+              chamber_h3_3:'Dr. Hasan Nazir Uddin Sumon (Assistant Professor, Enam Medical College)',
               chamber_span1_1:'Al Manar Hospital Ltd. Beside Mohammadpur new thana, Sat masjid road, Roam no: 207',
               chamber_span1_2:'Visiting hour: Saturday from 6 PM to 8 PM & Thursday from 4 PM to 9 PM',
               chamber_span1_3:'For serial: 01550020885',

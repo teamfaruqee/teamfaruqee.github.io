@@ -314,9 +314,15 @@
   }
 
   .chamber-feature div {
-    height: 26px;
+    height: 40px;
   }
   
+}
+
+@media only screen and (max-width: 415px) {
+  .chamber-feature div {
+    height: 26px;
+  }
 }
 
 @media only screen and (max-width: 280px) {
