@@ -14,6 +14,13 @@
   .row {
     padding: 0 2%;
   }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+   
+    font-size: 69%;
+    
+  }
  
  
 }
