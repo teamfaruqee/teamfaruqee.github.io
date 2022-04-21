@@ -535,6 +535,10 @@ input[type="submit"]:active {
 /* Feature */
 /* ---------------------------------------------- */
 
+.section-features {
+  background-color: #f4f4f4;
+}
+
 .section-features .long-copy {
   margin-bottom: 30px;
 }
