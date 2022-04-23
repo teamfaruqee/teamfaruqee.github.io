@@ -272,6 +272,14 @@ $(document).ready(function() {
             window.open(`mailto:${mailTo}?subject=${subject}&body=` + encodeURIComponent(body));
 			
     }); */
+    /*----  False send mail pop up modal ---------*/
+    /*$('#btnSubmit').magnificPopup({
+      items: {
+        src: '<div class="white-popup">Thanks for your opinion</div>',
+        type: 'inline'
+    },
+    closeBtnInside: true
+    });*/
 
   /* Multi lingual */
   i18next.changeLanguage($("#lang").val());
