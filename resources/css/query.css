@@ -7,6 +7,7 @@
   }
 
   .header-text {
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
 
@@ -30,6 +31,8 @@
     font-size: 18px;
   }
   .header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),
+      url(img/mcts-1.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(img/mcts-1.jpg);
   }
@@ -98,6 +101,7 @@
 @media only screen and (max-width: 767px) {
  
   .item {
+    -ms-flex-preferred-size: 32%;
     flex-basis: 32%;
   }
 
